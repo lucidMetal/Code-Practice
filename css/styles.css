@@ -1,0 +1,43 @@
+/*
+List things you think you can edit about a button using CSS:
+1. Font size
+2. Color
+3. Background
+4. Outline
+5. Font-weight
+
+Rule set
+[
+    selector {
+    {key: value;} = property
+}
+]
+
+selector: class(title), id(learnMore), tag name(button)
+key: color, font-weight, font-size, outline, background
+value: 20px, red, 1em
+*/
+
+.bigButton {
+    font-family: "Calibri", sans-serif;
+    width: 100px;
+    /*
+    border: type thickness color;
+        type: solid, dotted, dashed, double
+        thickness: (x)px
+        color: red, green, blue, yellow
+    */
+    border: none;
+    background-color: rgb(0, 128, 128);
+    color: #ffffff;
+    
+    /*
+    Color value types:
+    keywords: red, white, cornflowerblue, green
+    rgb: (0, 255, 0) = green
+    rgba: (255, 0, 0, 0.25) 
+        a: {0 - 1}25
+    hex codes: #ff0000 = red
+    teal
+    */
+}
