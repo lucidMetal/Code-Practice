@@ -27,9 +27,15 @@ If neither, display, "Happy && Sad"
 
 // hello("Etsub", 17, "male");
 
-// function hello(name, age, gender) {
-//   console.log(`Hello, my name is ${name} and I am ${age}. I am ${gender}.`);
-// }
+function addition(num1, num2) {
+  const sum = num1 + num2;
+  const difference = num1 - num2;
+  console.log(difference);
+  return sum;
+}
+
+const functionAnswer = addition(2, 3);
+console.log(functionAnswer);
 
 // const helloPerson = (name, age, gender) => {
 //   console.log(`Hello, my name is ${name} and I am ${age}. I am ${gender}.`);
@@ -37,4 +43,39 @@ If neither, display, "Happy && Sad"
 
 // helloPerson("Michael", 15, "male");
 
-const numbersList = [1, 3, "Hello", true];
+const numbersList = [1, 3, 4, 6, 1, 60, 32, 10];
+//                   0  1  2  3  4  5    6   7
+// console.log(numbersList[2]);
+console.log();
+const start = undefined;
+console.log(start);
+
+const consoles = {
+  log: function (name) {
+    name;
+  },
+};
+
+const etsub = {
+  age: 17,
+  lives: "10411 Madison Dr.",
+  hairColor: "black",
+  homeCountry: "Ethiopia",
+  isOver18: false,
+  introduction: function () {
+    console.log("Hello, my name is Etsub.");
+  },
+};
+
+etsub.introduction();
+
+// let i = 0;
+
+// while (i < 10) {
+//   console.log(i);
+//   i += 2;
+// }
+
+// for (let i = 0; i < 10; i++) {
+//   console.log(i);
+// }
