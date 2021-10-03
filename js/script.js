@@ -45,14 +45,14 @@ console.log(functionAnswer);
 
 const numbersList = [1, 3, 4, 6, 1, 60, 32, 10];
 //                   0  1  2  3  4  5    6   7
-// console.log(numbersList[2]);
+// console.log(numbersList[~]);
 console.log();
 const start = undefined;
 console.log(start);
 
-const consoles = {
-  log: function (name) {
-    name;
+const math = {
+  sqrt: function (base) {
+    return base ** (1 / 2);
   },
 };
 
@@ -68,6 +68,8 @@ const etsub = {
 };
 
 etsub.introduction();
+
+const number = Math.sqrt(2, 3);
 
 // let i = 0;
 
